@@ -9,13 +9,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Pel·lícules',
-      initialRoute: 'home',
+      initialRoute: '/',
       routes: {
-        'home': (BuildContext context) => HomeScreen(),
+        '/': (BuildContext context) => HomeScreen(),
         'details': (BuildContext context) => DetailsScreen(),
       },
       theme: ThemeData.light()
-          .copyWith(appBarTheme: const AppBarTheme(color: Colors.indigo)),
+          .copyWith(appBarTheme: const AppBarTheme(backgroundColor: Colors.indigo)),
     );
   }
 }
