@@ -6,7 +6,7 @@ class CastingCards extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 30),
       width: double.infinity,
-      height: 180,
+      height: 200,
       // color: Colors.red,
       child: ListView.builder(
           itemCount: 10,
@@ -22,7 +22,6 @@ class _CastCard extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 10),
       width: 110,
-      height: 100,
       // color: Colors.green,
       child: Column(
         children: [
